@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:rim="http://www.blackberry.com/ns/widgets" id="decidanaroleta" version="0.9.1.25" rim:header="RIM-Widget:rim/widget" xmlns="http://www.w3.org/ns/widgets">
+  <author href="https://www.behance.net/ivanscher">Ivan Scher</author>
+  <name>Exemplos Básicos</name>
+ 
+  <description>Diversos Testes.</description>
+  <icon src="images/icon.png"/>
+  <content src="index.html" rim:allowInvokeParams="true"/>  
+
+  
+    <feature id="blackberry.app.orientation">
+        <param name="mode" value="portrait" />
+    </feature>
+    
+    <feature id="blackberry.ui.dialog"/>
+	
+  <feature id="blackberry.app"/>
+  <feature id="blackberry.app.event"/>
+  <feature id="blackberry.ui.contextmenu"/>
+  <feature id="blackberry.invoke.card" />
+  <feature id="blackberry.ui.toast" />
+    
+</widget>
